@@ -100,8 +100,8 @@ function isItemAnActionSection(answerNode) {
 
 function getPositiveReactionsAmount(answerNode) {
   var positiveReactions = [
-    '+1', 
-    '️tada',
+    '+1',
+    'tada',
     'smile',
     'heart'
   ];
