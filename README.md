@@ -1,5 +1,5 @@
 # github-pretty-issues
-> Find the right answers faster
+> Get the issue's solution faster
 
 This is a lightweight Google Chrome extension for Github that allows you to see issue answers sorted by popularity. It can be useful to find right answers faster.
 
