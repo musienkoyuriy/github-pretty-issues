@@ -19,10 +19,10 @@ function init() {
   var resultAnswers = stuckWithActionsSection(issueAnswers.slice());
 
   resultAnswers.sort(function(curr, next) {
-    var prevPositiveReactions = getPositiveReactionsAmount(curr[0]);
+    var currPositiveReactions = getPositiveReactionsAmount(curr[0]);
     var nextPositiveReactions = getPositiveReactionsAmount(next[0]);
 
-    if (prevPositiveReactions < nextPositiveReactions) {
+    if (currPositiveReactions < nextPositiveReactions) {
       return 1;
     } else {
       return -1;
